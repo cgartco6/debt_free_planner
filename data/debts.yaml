@@ -1,0 +1,34 @@
+# Configuration for Debt, Base Income, and Seasonal Income boosts
+strategy: "avalanche" 
+
+# Your guaranteed minimum base take-home pay
+current_net_income: 35000.00 
+
+# Seasonal or variable income additions (e.g., commissions, bonuses, tax refunds)
+# Map out the exact months (1 to 120) you expect additional variable windfalls
+seasonal_income:
+  month_3: 15000.00   # e.g., March performance bonus
+  month_6: 5000.00    # e.g., Mid-year variable payout
+  month_12: 25000.00  # e.g., December holiday 13th cheque
+  month_15: 12000.00  # e.g., Next year tax refund
+
+debts:
+  - name: "Credit Card A"
+    balance: 25000.00
+    interest_rate: 21.0
+    minimum_payment: 1200.00
+
+  - name: "Personal Loan B"
+    balance: 45000.00
+    interest_rate: 14.5
+    minimum_payment: 1800.00
+
+  - name: "Car Finance"
+    balance: 120000.00
+    interest_rate: 11.0
+    minimum_payment: 3500.00
+
+  - name: "Store Account C"
+    balance: 8500.00
+    interest_rate: 24.5
+    minimum_payment: 500.00
