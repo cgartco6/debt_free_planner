@@ -1,0 +1,11 @@
+# Categorize all monthly non-debt expenses accurately
+# Income minus all expenses leaves your "Disposable Income" (the Debt Fund)
+housing_rent: 12000.00
+groceries: 4500.00
+utilities_electricity: 1500.00
+utilities_water: 600.00
+transportation_fuel: 1800.00
+car_insurance: 900.00
+medical_aid: 2400.00
+cellphone_data: 800.00
+food_entertainment: 2000.00
