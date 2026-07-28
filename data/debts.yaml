@@ -1,0 +1,26 @@
+# List your current debts here. The script uses this to calculate exact payoffs.
+# method options: 'avalanche' or 'snowball'
+strategy: "avalanche" 
+
+current_net_income: 35000.00 # Your total take-home pay
+
+debts:
+  - name: "Credit Card A"
+    balance: 25000.00
+    interest_rate: 21.0
+    minimum_payment: 1200.00
+
+  - name: "Personal Loan B"
+    balance: 45000.00
+    interest_rate: 14.5
+    minimum_payment: 1800.00
+
+  - name: "Car Finance"
+    balance: 120000.00
+    interest_rate: 11.0
+    minimum_payment: 3500.00
+
+  - name: "Store Account C"
+    balance: 8500.00
+    interest_rate: 24.5
+    minimum_payment: 500.00
