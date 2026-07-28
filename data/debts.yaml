@@ -1,0 +1,39 @@
+strategy: "avalanche" 
+
+# Base Financial Metrics
+current_net_income: 35000.00 
+
+# ADVANCED PARAMETERS
+# Annual market return rate (e.g., 9.5% compounding growth on post-debt savings)
+annual_investment_return: 9.5  
+
+# Expected annual inflation rate (e.g., automatically scales living expenses up by 5.5% every 12 months)
+annual_inflation_rate: 5.5    
+
+# Seasonal / Variable windfall injection schedule
+seasonal_income:
+  month_3: 15000.00   
+  month_6: 5000.00    
+  month_12: 25000.00  
+  month_15: 12000.00  
+
+debts:
+  - name: "Credit Card A"
+    balance: 25000.00
+    interest_rate: 21.0
+    minimum_payment: 1200.00
+
+  - name: "Personal Loan B"
+    balance: 45000.00
+    interest_rate: 14.5
+    minimum_payment: 1800.00
+
+  - name: "Car Finance"
+    balance: 120000.00
+    interest_rate: 11.0
+    minimum_payment: 3500.00
+
+  - name: "Store Account C"
+    balance: 8500.00
+    interest_rate: 24.5
+    minimum_payment: 500.00
